@@ -1,0 +1,17 @@
+{%extends "learning_logs/base.html"%}
+
+{%block header%}
+    <div class="jumbotron">
+        <h1>Learning Note(test)</h1>
+    </div>
+{%endblock header%}
+
+{%block content%}
+    <h2>
+        <a href="{% url 'users:register' %}">Register an account</a>to make
+        your own Learning Log,and list the topics you're learning about.
+    </h2>
+    <h2>
+        Here, I will study web development initially and test it at the same time
+    </h2>
+{%endblock content%}
